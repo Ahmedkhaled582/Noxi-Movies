@@ -29,7 +29,8 @@ async function handleSubmit(e){
     setErrorList(validation.error.details)
   }else{
     setIsLoading(true)
-    let data = await axios.post(`noxi-movies-production.up.railway.app/login` , form); 
+    let data = await axios.post(`https://noxi-movies-production.up.railway.app/login` , form); 
+    console.log(data)
     if(data.status == 200){
      setIsLoading(false)
      localStorage.setItem('userToken', data.data.accessToken)
