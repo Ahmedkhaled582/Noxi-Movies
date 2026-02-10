@@ -31,12 +31,13 @@ async function handleSubmit(e){
     setErrorList(validation.error.details)
   }else{
     setIsLoading(true)
-    let {data} = await axios.post(`https://movie-app-l0g2.onrender.com/register` , form); 
-    if(data.success === true){
+    let data = await axios.post(`http://localhost:5000/register` , form); 
+    console.log(data)
+    if(data.status == 201){
      setIsLoading(false)
      navigate("/login")
     } else{
-     setError(data.message)
+     setError(data.statusText)
      setIsLoading(false)
    }
   }

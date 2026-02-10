@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "email": "ahmed100@gmail.com",
+      "password": "$2a$10$bSwvx2piM.DF8T1ZKvoileS3Of6/l51IqmH5S28cmRLkBtN62FWMO",
+      "username": "ahmed100",
+      "phone": "01234567891",
+      "id": 1
+    },
+    {
+      "email": "ahmed789@gmail.com",
+      "password": "$2a$10$Lk5C8X5EiMlKfSgPVFC0hOIJNf245LHLOMa7eCM6tTT5OUO12P5Le",
+      "username": "ahmed789",
+      "phone": "01234567892",
+      "id": 2
+    }
+  ]
+}

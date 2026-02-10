@@ -29,14 +29,14 @@ async function handleSubmit(e){
     setErrorList(validation.error.details)
   }else{
     setIsLoading(true)
-    let {data} = await axios.post(`https://movie-app-l0g2.onrender.com/login` , form); 
-    if(data.success === true){
+    let data = await axios.post(`http://localhost:5000/login` , form); 
+    if(data.status == 200){
      setIsLoading(false)
-     localStorage.setItem('userToken', data.token )
+     localStorage.setItem('userToken', data.data.accessToken)
      saveUserData()
      navigate("/")
     } else{
-     setError(data.message)
+     setError(data.statusText)
      setIsLoading(false)
    }
   }
