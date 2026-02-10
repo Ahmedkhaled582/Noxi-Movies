@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Noxi-Movies/static/css/main.96cb45bc.css",
-    "main.js": "/Noxi-Movies/static/js/main.e77cddcf.js",
+    "main.js": "/Noxi-Movies/static/js/main.84cd4e6c.js",
     "static/media/fa-solid-900.ttf": "/Noxi-Movies/static/media/fa-solid-900.45a265d0f07b31cde85f.ttf",
     "static/media/fa-brands-400.ttf": "/Noxi-Movies/static/media/fa-brands-400.6205fd00fb1b573e9f0f.ttf",
     "static/media/fa-solid-900.woff2": "/Noxi-Movies/static/media/fa-solid-900.fb8184add5a3101ad0a3.woff2",
@@ -12,10 +12,10 @@
     "static/media/fa-v4compatibility.woff2": "/Noxi-Movies/static/media/fa-v4compatibility.b3049b13a93f07e026fc.woff2",
     "index.html": "/Noxi-Movies/index.html",
     "main.96cb45bc.css.map": "/Noxi-Movies/static/css/main.96cb45bc.css.map",
-    "main.e77cddcf.js.map": "/Noxi-Movies/static/js/main.e77cddcf.js.map"
+    "main.84cd4e6c.js.map": "/Noxi-Movies/static/js/main.84cd4e6c.js.map"
   },
   "entrypoints": [
     "static/css/main.96cb45bc.css",
-    "static/js/main.e77cddcf.js"
+    "static/js/main.84cd4e6c.js"
   ]
 }
