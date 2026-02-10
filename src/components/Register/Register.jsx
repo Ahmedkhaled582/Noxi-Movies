@@ -31,7 +31,7 @@ async function handleSubmit(e){
     setErrorList(validation.error.details)
   }else{
     setIsLoading(true)
-    let data = await axios.post(`http://localhost:5000/register` , form); 
+    let data = await axios.post(`noxi-movies-production.up.railway.app/register` , form); 
     console.log(data)
     if(data.status == 201){
      setIsLoading(false)
