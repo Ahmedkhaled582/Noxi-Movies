@@ -13,6 +13,13 @@
       "username": "ahmed789",
       "phone": "01234567892",
       "id": 2
+    },
+    {
+      "email": "ali22@gmail.com",
+      "password": "$2a$10$MLb4EsvVDJryWbIh.O2LfO8Onq5gyCuIg/HabtARMr/45CyObys4i",
+      "username": "ali22",
+      "phone": "01234567891",
+      "id": 3
     }
   ]
 }

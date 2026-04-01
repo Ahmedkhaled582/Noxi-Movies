@@ -31,9 +31,7 @@ async function handleSubmit(e){
     setErrorList(validation.error.details)
   }else{
     setIsLoading(true)
-    let data = await axios.post(`https://noxi-movies-production.up.railway.app/register` , form); 
-    console.log(data)
-    console.log(data)
+    let data = await axios.post(`https://cms-products-production.up.railway.app/register` , form); 
     if(data.status == 201){
      setIsLoading(false)
      navigate("/login")

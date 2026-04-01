@@ -12,6 +12,7 @@ export default function MovieDetails() {
   async  function getMovieDetails(){
         const {data} = await axios.get(`https://api.themoviedb.org/3/${params.media_type}/${params.id}?api_key=79ddabaf909aa7717beb4a4a68db5bbe`)
         setMovieDetails(data)
+        console.log(data)
       }
       async  function getSimilarMovie(){
         const {data} = await axios.get(`https://api.themoviedb.org/3/${params.media_type}/${params.id}/similar?api_key=79ddabaf909aa7717beb4a4a68db5bbe`)
@@ -40,7 +41,7 @@ export default function MovieDetails() {
     </div>
     <div className="col-md-8">
     <h2>{movieDetails.title}{movieDetails.name}</h2>
-    <p className='text-secondary'>{movieDetails.overview}</p>
+    <p className='text-secondary'>{movieDetails.overview?movieDetails.overview:movieDetails.biography}</p>
     </div>
     
     </div>
